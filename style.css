@@ -1,0 +1,46 @@
+html {
+	margin: 100;
+	padding: 100;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 2;
+	color:blue; 
+	background:white; 
+	margin: 100; 
+	padding: 10;
+	}
+p { 
+	margin-top: 300; 
+    text-align: center;
+    font: 75% georgia, sans-serif;
+    font-size: x-large;
+    color: darkcyan;
+    background: floralwhite;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+    color:black;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: blueviolet;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color:cadetblue;
+    }
+.url{
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     
+    }
