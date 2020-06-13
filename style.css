@@ -11,13 +11,29 @@ body {
 	padding: 10;
 	}
 p { 
-	margin-top: 300; 
+	margin-top: 300;
+	margin-left: 150px;
+	margin-right: 150px;  
     text-align: center;
     font: 75% georgia, sans-serif;
     font-size: x-large;
-    color: darkcyan;
-    background: floralwhite;
+    color: black;
+    background: #fffffe;
 	}
+h1 {
+	text-align: center;
+	color: black;
+    font: 75% georgia, sans-serif;
+	font-size: 50px;
+	text-decoration: underline;
+	text-decoration-color: blue;
+
+	}
+	h2{
+		padding-left: 300px;
+		color: rgb(10, 10, 190);
+		text-decoration: underline;
+		font-size: 30px;	}
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
@@ -31,8 +47,8 @@ a:link {
 	}
 a:visited { 
 	font-weight: bold; 
-	text-decoration: none; 
-	color: blueviolet;
+	text-decoration: underline; 
+	color: black;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
